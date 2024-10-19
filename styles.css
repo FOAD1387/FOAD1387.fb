@@ -1,0 +1,93 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+nav h1 {
+    display: inline;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.about, .projects, .services, .testimonials, .blog, .contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.project-gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-card {
+    width: 30%;
+}
+
+.portfolio-gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio-item {
+    width: 30%;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.button {
+    background: #f39c12;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
